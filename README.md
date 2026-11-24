@@ -1,4 +1,4 @@
-# scifig-ai
+# SciFig
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scifig-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scifig.ai/
+SciFig provides an AI‑powered platform that generates editable scientific illustrations, data‑driven charts, and flowcharts from text, sketches, photos, PDFs, references, or data files. The service targets researchers who need publication‑ready figures for journals, posters, or presentations, offering free credits and paid plans with unlimited credit expiration. Users can refine labels, styles, and export figures as PPTX, SVG, PNG, PDF, EPS, or TIFF while retaining full editability.
+
+**Areas:** AI · ScientificFigures · ImageGeneration · SaaS · Company
+
+## SciFig on APIs.io
+
+Everything profiled for SciFig is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scifig-ai/](https://apis.io/providers/scifig-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [SciFig Capabilities API](https://apis.io/apis/scifig-ai/scifig-ai-capabilities-api/) — The Capabilities API from SciFig — 1 operation(s) for capabilities.
+- [SciFig Charts API](https://apis.io/apis/scifig-ai/scifig-ai-charts-api/) — The Charts API from SciFig — 2 operation(s) for charts.
+- [SciFig Credits API](https://apis.io/apis/scifig-ai/scifig-ai-credits-api/) — The Credits API from SciFig — 1 operation(s) for credits.
+- [SciFig Files API](https://apis.io/apis/scifig-ai/scifig-ai-files-api/) — The Files API from SciFig — 2 operation(s) for files.
+- [SciFig Flowcharts API](https://apis.io/apis/scifig-ai/scifig-ai-flowcharts-api/) — The Flowcharts API from SciFig — 2 operation(s) for flowcharts.
+- [SciFig Images API](https://apis.io/apis/scifig-ai/scifig-ai-images-api/) — The Images API from SciFig — 5 operation(s) for images.
+- [SciFig Jobs API](https://apis.io/apis/scifig-ai/scifig-ai-jobs-api/) — The Jobs API from SciFig — 2 operation(s) for jobs.
+- [SciFig Openapi.json API](https://apis.io/apis/scifig-ai/scifig-ai-openapi-json-api/) — The Openapi.json API from SciFig — 1 operation(s) for openapi.json.
+- [SciFig Openapi.yaml API](https://apis.io/apis/scifig-ai/scifig-ai-openapi-yaml-api/) — The Openapi.yaml API from SciFig — 1 operation(s) for openapi.yaml.
+- [SciFig Pricing API](https://apis.io/apis/scifig-ai/scifig-ai-pricing-api/) — The Pricing API from SciFig — 1 operation(s) for pricing.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SciFig Agentic Access](https://apis.io/agentic-access/scifig-ai/scifig-ai-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [AdmissionFallback](https://apis.io/schemas/scifig-ai/scifig-ai-admission-fallback/)
+- [Job](https://apis.io/schemas/scifig-ai/scifig-ai-job/)
+- [TextDetection](https://apis.io/schemas/scifig-ai/scifig-ai-text-detection/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scifig Ai Context](https://apis.io/jsonld/scifig-ai/scifig-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SciFig API Rules](https://apis.io/rules/scifig-ai/scifig-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SciFig Authentication](https://apis.io/security/scifig-ai/scifig-ai-authentication/)
+- [SciFig Domain Security](https://apis.io/security/scifig-ai/scifig-ai-domain-security/)
+- [SciFig Vulnerability Disclosure](https://apis.io/security/scifig-ai/scifig-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [SciFig Scopes](https://apis.io/scopes/scifig-ai/scifig-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SciFig Plans Pricing](https://apis.io/plans/scifig-ai/scifig-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [SciFig Rate Limits](https://apis.io/rate-limits/scifig-ai/scifig-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scifig.ai/)
+- [API reference](https://scifig.ai/docs/api)
+- [Pricing](https://scifig.ai/pricing)
+- [Sign up](https://scifig.ai/signup)
+- [Changelog](https://scifig.ai/docs/api/changelog)
+- [Blog](https://scifig.ai/blog)
+- [Security](https://scifig.ai/privacy)
+- [Terms of service](https://scifig.ai/terms)
+- [Privacy policy](https://scifig.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.5** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 54.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 50.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scifig-ai/](https://apis.io/providers/scifig-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SciFig: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scifig-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
